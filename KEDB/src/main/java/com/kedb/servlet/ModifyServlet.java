@@ -85,9 +85,9 @@ public class ModifyServlet extends HttpServlet {
 			session.setAttribute("pno",pb.getProblemNumber());
 			session.setAttribute("pt",pb.getProblemTitle());
 			session.setAttribute("pdesc",pb.getProblemDescription());
-			session.setAttribute("rca",pb.getRCA());
+			session.setAttribute("rca",pb.getRca());
 			session.setAttribute("prca",pb.getPermanantResolution());
-			session.setAttribute("eta",pb.getETA());
+			session.setAttribute("eta",pb.getEta());
 			session.setAttribute("app",pb.getApplication());
 			session.setAttribute("wg",pb.getWorkGroup());
 			session.setAttribute("luu",pb.getLastupdUser());

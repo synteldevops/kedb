@@ -3,119 +3,113 @@ package com.kedb.bean;
 public class Incident_Details 
 {
 
-	private String IncidentNumber;
-	private String IncidentTitle;
-	private String IncidentDescription;
-	private String ProblemNumber;
-	private String WorkAround;
-	private String CauseCode;
-	private String Application;
-	private String CreateDate;
-	private String CloseDate;
-	private String UserName;
-	private String WorkGroup;
-	private String LastUpdatedUser;
-	private String LastUpdatedTimeStamp;
-	
-	
-	private String LastupdUser;
-	private String LastupdTimestamp;
-	public String getLastupdUser() {
-		return LastupdUser;
-	}
-	public void setLastupdUser(String lastupdUser) {
-		LastupdUser = lastupdUser;
-	}
-	public String getLastupdTimestamp() {
-		return LastupdTimestamp;
-	}
-	public void setLastupdTimestamp(String lastupdTimestamp) {
-		LastupdTimestamp = lastupdTimestamp;
-	}
-	
-	
-	
-	
-	
-	
-	
-	public String getLastUpdatedUser() {
-		return LastUpdatedUser;
-	}
-	public void setLastUpdatedUser(String lastUpdatedUser) {
-		LastUpdatedUser = lastUpdatedUser;
-	}
-	public String getLastUpdatedTimeStamp() {
-		return LastUpdatedTimeStamp;
-	}
-	public void setLastUpdatedTimeStamp(String lastUpdatedTimeStamp) {
-		LastUpdatedTimeStamp = lastUpdatedTimeStamp;
-	}
+	private String incidentNumber;
+	private String incidentTitle;
+	private String incidentDescription;
+	private String problemNumber;
+	private String workAround;
+	private String causeCode;
+	private String application;
+	private String createDate;
+	private String closeDate;
+	private String userName;
+	private String workGroup;
+	private String lastUpdatedUser;
+	private String lastUpdatedTimeStamp;	
+	private String lastupdUser;
+	private String lastupdTimestamp;
 	public String getIncidentNumber() {
-		return IncidentNumber;
+		return incidentNumber;
 	}
 	public void setIncidentNumber(String incidentNumber) {
-		IncidentNumber = incidentNumber;
+		this.incidentNumber = incidentNumber;
 	}
 	public String getIncidentTitle() {
-		return IncidentTitle;
+		return incidentTitle;
 	}
 	public void setIncidentTitle(String incidentTitle) {
-		IncidentTitle = incidentTitle;
+		this.incidentTitle = incidentTitle;
 	}
 	public String getIncidentDescription() {
-		return IncidentDescription;
+		return incidentDescription;
 	}
 	public void setIncidentDescription(String incidentDescription) {
-		IncidentDescription = incidentDescription;
+		this.incidentDescription = incidentDescription;
 	}
 	public String getProblemNumber() {
-		return ProblemNumber;
+		return problemNumber;
 	}
 	public void setProblemNumber(String problemNumber) {
-		ProblemNumber = problemNumber;
+		this.problemNumber = problemNumber;
 	}
 	public String getWorkAround() {
-		return WorkAround;
+		return workAround;
 	}
 	public void setWorkAround(String workAround) {
-		WorkAround = workAround;
+		this.workAround = workAround;
 	}
 	public String getCauseCode() {
-		return CauseCode;
+		return causeCode;
 	}
 	public void setCauseCode(String causeCode) {
-		CauseCode = causeCode;
+		this.causeCode = causeCode;
 	}
 	public String getApplication() {
-		return Application;
+		return application;
 	}
 	public void setApplication(String application) {
-		Application = application;
+		this.application = application;
 	}
 	public String getCreateDate() {
-		return CreateDate;
+		return createDate;
 	}
 	public void setCreateDate(String createDate) {
-		CreateDate = createDate;
+		this.createDate = createDate;
 	}
 	public String getCloseDate() {
-		return CloseDate;
+		return closeDate;
 	}
 	public void setCloseDate(String closeDate) {
-		CloseDate = closeDate;
+		this.closeDate = closeDate;
 	}
 	public String getUserName() {
-		return UserName;
+		return userName;
 	}
 	public void setUserName(String userName) {
-		UserName = userName;
+		this.userName = userName;
 	}
 	public String getWorkGroup() {
-		return WorkGroup;
+		return workGroup;
 	}
 	public void setWorkGroup(String workGroup) {
-		WorkGroup = workGroup;
+		this.workGroup = workGroup;
 	}
+	public String getLastUpdatedUser() {
+		return lastUpdatedUser;
+	}
+	public void setLastUpdatedUser(String lastUpdatedUser) {
+		this.lastUpdatedUser = lastUpdatedUser;
+	}
+	public String getLastUpdatedTimeStamp() {
+		return lastUpdatedTimeStamp;
+	}
+	public void setLastUpdatedTimeStamp(String lastUpdatedTimeStamp) {
+		this.lastUpdatedTimeStamp = lastUpdatedTimeStamp;
+	}
+	public String getLastupdUser() {
+		return lastupdUser;
+	}
+	public void setLastupdUser(String lastupdUser) {
+		this.lastupdUser = lastupdUser;
+	}
+	public String getLastupdTimestamp() {
+		return lastupdTimestamp;
+	}
+	public void setLastupdTimestamp(String lastupdTimestamp) {
+		this.lastupdTimestamp = lastupdTimestamp;
+	}
+	
+	
+	
 	
 }

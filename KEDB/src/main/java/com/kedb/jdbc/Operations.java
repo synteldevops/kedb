@@ -377,9 +377,9 @@ public ProblemDetails problem(String prb) {
 		prbd.setProblemNumber(rs.getString(1));
 		prbd.setProblemTitle(rs.getString(2));
 	    prbd.setProblemDescription(rs.getString(3));
-	    prbd.setRCA(rs.getString(4));
+	    prbd.setRca(rs.getString(4));
 	    prbd.setPermanantResolution(rs.getString(5));
-	    prbd.setETA(rs.getString(6));
+	    prbd.setEta(rs.getString(6));
 	    prbd.setApplication(rs.getString(7));
 	    prbd.setWorkGroup(rs.getString(8));
 	    prbd.setLastupdUser(rs.getString(9));

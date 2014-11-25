@@ -2,32 +2,35 @@ package com.kedb.bean;
 
 public class LOB_1
 {
-private String LOB;
-private String E2E;
-private String Application;
-public String getLOB() {
-	return LOB;
+private String lob;
+private String e2e;
+private String application;
+private String workGroup;
+public String getLob() {
+	return lob;
 }
-public void setLOB(String lOB) {
-	LOB = lOB;
+public void setLob(String lob) {
+	this.lob = lob;
 }
-public String getE2E() {
-	return E2E;
+public String getE2e() {
+	return e2e;
 }
-public void setE2E(String e2e) {
-	E2E = e2e;
+public void setE2e(String e2e) {
+	this.e2e = e2e;
 }
 public String getApplication() {
-	return Application;
+	return application;
 }
 public void setApplication(String application) {
-	Application = application;
+	this.application = application;
 }
 public String getWorkGroup() {
-	return WorkGroup;
+	return workGroup;
 }
 public void setWorkGroup(String workGroup) {
-	WorkGroup = workGroup;
+	this.workGroup = workGroup;
 }
-private String WorkGroup;
+
+
+
 }

@@ -2,88 +2,83 @@ package com.kedb.bean;
 
 public class ProblemDetails 
 {
-	private String ProblemNumber;
-	private String ProblemTitle;
-	private String ProblemDescription;
-	private String RCA;
-	private String PermanantResolution;
-	private String ETA;
-	private String Application;
-	
-	
-	private String WorkGroup;
-	private String UserName;
-	private String LastupdUser;
-	private String LastupdTimestamp;
-	public String getWorkGroup() {
-		return WorkGroup;
-	}
-	public void setWorkGroup(String workGroup) {
-		WorkGroup = workGroup;
-	}
-	public String getUserName() {
-		return UserName;
-	}
-	public void setUserName(String userName) {
-		UserName = userName;
-	}
-	public String getLastupdUser() {
-		return LastupdUser;
-	}
-	public void setLastupdUser(String lastupdUser) {
-		LastupdUser = lastupdUser;
-	}
-	public String getLastupdTimestamp() {
-		return LastupdTimestamp;
-	}
-	public void setLastupdTimestamp(String lastupdTimestamp) {
-		LastupdTimestamp = lastupdTimestamp;
-	}
-	
-	
-	
-	
+	private String problemNumber;
+	private String problemTitle;
+	private String problemDescription;
+	private String rca;
+	private String permanantResolution;
+	private String eta;
+	private String application;	
+	private String workGroup;
+	private String userName;
+	private String lastupdUser;
+	private String lastupdTimestamp;
 	public String getProblemNumber() {
-		return ProblemNumber;
+		return problemNumber;
 	}
 	public void setProblemNumber(String problemNumber) {
-		ProblemNumber = problemNumber;
+		this.problemNumber = problemNumber;
 	}
 	public String getProblemTitle() {
-		return ProblemTitle;
+		return problemTitle;
 	}
 	public void setProblemTitle(String problemTitle) {
-		ProblemTitle = problemTitle;
+		this.problemTitle = problemTitle;
 	}
 	public String getProblemDescription() {
-		return ProblemDescription;
+		return problemDescription;
 	}
 	public void setProblemDescription(String problemDescription) {
-		ProblemDescription = problemDescription;
+		this.problemDescription = problemDescription;
 	}
-	public String getRCA() {
-		return RCA;
+	public String getRca() {
+		return rca;
 	}
-	public void setRCA(String rCA) {
-		RCA = rCA;
+	public void setRca(String rca) {
+		this.rca = rca;
 	}
 	public String getPermanantResolution() {
-		return PermanantResolution;
+		return permanantResolution;
 	}
 	public void setPermanantResolution(String permanantResolution) {
-		PermanantResolution = permanantResolution;
+		this.permanantResolution = permanantResolution;
 	}
-	public String getETA() {
-		return ETA;
+	public String getEta() {
+		return eta;
 	}
-	public void setETA(String eTA) {
-		ETA = eTA;
+	public void setEta(String eta) {
+		this.eta = eta;
 	}
 	public String getApplication() {
-		return Application;
+		return application;
 	}
 	public void setApplication(String application) {
-		Application = application;
+		this.application = application;
 	}
+	public String getWorkGroup() {
+		return workGroup;
+	}
+	public void setWorkGroup(String workGroup) {
+		this.workGroup = workGroup;
+	}
+	public String getUserName() {
+		return userName;
+	}
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+	public String getLastupdUser() {
+		return lastupdUser;
+	}
+	public void setLastupdUser(String lastupdUser) {
+		this.lastupdUser = lastupdUser;
+	}
+	public String getLastupdTimestamp() {
+		return lastupdTimestamp;
+	}
+	public void setLastupdTimestamp(String lastupdTimestamp) {
+		this.lastupdTimestamp = lastupdTimestamp;
+	}
+	
 	
 }
